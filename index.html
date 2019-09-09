@@ -10,9 +10,9 @@
   <h1 id="a1" style="text-shadow:0px 3px 5px #FFC0CB">网页功能</h1></br>
   <p5>this website belongs to llk</p5></br>
   <p3 id="a3"> </p3></br>
-  <button onclick="function1()" id="button1" style="background:rgba(30,144,255,0.1);padding:10px;border:5px solid rgba(30,144,255,0.5);border-radius:20px;color:#DB7093;font-size:20px;"><p2 id="button">计算器</p2></button></br></br>
-  <button onclick="function7()" id="button2" style="background:rgba(30,144,255,0.1);padding:10px;border:5px solid rgba(30,144,255,0.5);border-radius:20px;color:#DB7093;font-size:20px;">json教程</button></br></br>
-  <button onclick="qj()" id="button3" style="background:rgba(30,144,255,0.1);padding:10px;border:5px solid rgba(30,144,255,0.5);border-radius:20px;color:#DB7093;font-size:20px;">穷举器</button></br></br>
+  <button onclick="function1()" id="button1" style="cursor:pointer;background:rgba(30,144,255,0.1);padding:10px;border:5px solid rgba(30,144,255,0.5);border-radius:20px;color:#DB7093;font-size:20px;"><p2 id="button">计算器</p2></button></br></br>
+  <button onclick="function7()" id="button2" style="cursor:pointer;background:rgba(30,144,255,0.1);padding:10px;border:5px solid rgba(30,144,255,0.5);border-radius:20px;color:#DB7093;font-size:20px;">json教程</button></br></br>
+  <button onclick="qj()" id="button3" style="cursor:pointer;background:rgba(30,144,255,0.1);padding:10px;border:5px solid rgba(30,144,255,0.5);border-radius:20px;color:#DB7093;font-size:20px;">穷举器</button></br></br>
   <p1 id="a2">更多功能正在开发中……敬请期待</p2>
 </div>
 
@@ -25,8 +25,8 @@
   <button onclick="function3()" style="cursor:pointer;cursor:pointer;cursor:pointer;cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);">-</button>
   <button onclick="function4()" style="cursor:pointer;cursor:pointer;cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);">×</button>
   <button onclick="function5()" style="cursor:pointer;cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);">÷</button></br>
-  <input id="b2" type="text" value="" style="cursor:pointer;background-color:rgba(135,206,250,0.5);border-color:rgba(65,105,225,0.8)"><p7>在左侧输入第二个数</p7></br></br>
-  <button onclick="function6()" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:20px;">确定</button>
+  <input id="b2" type="text" value="" style="cursor:text;;background-color:rgba(135,206,250,0.5);border-color:rgba(65,105,225,0.8)"><p7>在左侧输入第二个数</p7></br></br>
+  <button onclick="function6()" style="cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:20px;">确定</button>
   </br>
   <p6 id="b3"></p6></br>
 </div>
@@ -40,28 +40,28 @@
   但是对于一段比较长的json文本，我们通常需要换行和进退位来使其更美观，例如我们可以把以上例子换成</br>
   {</br>"教程": {</br>  "内容": "json",</br>  "作者": "炖菜"</br>}</br>}</br>值得注意的是，同一级标签之前要用英文逗号隔开，否则会使语法出错</p3>
   <h2>小节训练</h2>
-  <input type="text" id="num" value="这里填写答案" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"/>
+  <input type="text" id="num" value="这里填写答案" style="cursor:text;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"/>
   <p>请补全以下例子中方框内缺失的部分</br>{"中国":{"语言":"中文"□"所在大洲": "亚洲"}}</p>
   <p id="demo"></p>
-  <button onclick="myFunction()" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);">验证答案</button>
+  <button onclick="myFunction()" style="cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);">验证答案</button>
   </br></br>
   <p4>{"首都":{"中国首都": "北京","俄国首都":"莫斯科","英国首都":"伦敦"}}</br>在以上例子中，"首都"的子标签有几个？</p4></br>
-  <button onclick="wrong()" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">6 </button>
-  <button onclick="wrong()" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">1 </button>
-  <button onclick="right()" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">3 </button>
-  <button onclick="wrong()" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">4 </button></br>
+  <button onclick="wrong()" style="cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">6 </button>
+  <button onclick="wrong()" style="cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">1 </button>
+  <button onclick="right()" style="cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">3 </button>
+  <button onclick="wrong()" style="cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:25px">4 </button></br>
   <p5 id="nmsl"></p5>
   </div>
 
 <div id="qj">
 	<h1 align="center">穷举器</h1>
 	<p1>用法：列举出"NXY有1个肝"到"NXY有9个肝"中的整数</br>"NXY有"(该文本放入第一框)</br> "1"(该文本放入变量框)</br>"个肝"(该文本放入第二框)</br>并设置变量最大值为9，穷举间隔为1</br></br>
-	<input id="one" type="text" value="" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p2>第一框(选填)</p2></br></br>
-	<input id="bl" type="text" value="" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p3>变量框(必填,填数值)</p3></br></br>
-	<input id="two" type="text" value="" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p4>第二框(选填)</p4></br></br></br>
-	<input id="max" type="text" value="" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p5>变量最大值</p5></br></br>
-	<input id="jump" type="text" value="" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p6>穷举间隔(填0网页崩溃)</p6></br></br>
-	<button onclick="re()" style="border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:35px">提交</button></br>
+	<input id="one" type="text" value="" style="cursor:text;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p2>第一框(选填)</p2></br></br>
+	<input id="bl" type="text" value="" style="cursor:text;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p3>变量框(必填,填数值)</p3></br></br>
+	<input id="two" type="text" value="" style="cursor:text;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p4>第二框(选填)</p4></br></br></br>
+	<input id="max" type="text" value="" style="cursor:text;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p5>变量最大值</p5></br></br>
+	<input id="jump" type="text" value="" style="cursor:text;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);"><p6>穷举间隔(填0网页崩溃)</p6></br></br>
+	<button onclick="re()" style="cursor:pointer;border-radius:5px;font-size:20px;background-color:rgba(0,255,255,0.3);color:pink;border-color:rgba(0,255,255,0.9);font-size:35px">提交</button></br>
 	<p7 id="re"></p7>
 </div>
 
